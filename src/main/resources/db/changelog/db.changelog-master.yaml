@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Hrant
+      changes:
+        - sqlFile:
+            path: classpath:/db/changelog/V1__init.sql
+
+  - changeSet:
+      id: 2
+      author: Hrant
+      comment: warehouse migration
+      changes:
+        - loadData:
+            tableName: warehouse
+            file: classpath:/db/changelog/warehouse.csv
+
+  - changeSet:
+      id: 3
+      author: Hrant
+      comment: material_type migration
+      changes:
+        - loadData:
+            tableName: material_type
+            file: classpath:/db/changelog/material_type.csv

@@ -1,0 +1,1555 @@
+2024-04-21T12:07:11.608+04:00  INFO 12496 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 12496 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:07:11.611+04:00  INFO 12496 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:07:11.667+04:00  INFO 12496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:07:12.452+04:00  INFO 12496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:07:12.518+04:00  INFO 12496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:07:12.949+04:00  INFO 12496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:07:12.960+04:00  INFO 12496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:07:12.960+04:00  INFO 12496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:07:12.999+04:00  INFO 12496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:07:12.999+04:00  INFO 12496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1332 ms
+2024-04-21T12:07:13.120+04:00  INFO 12496 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:07:13.178+04:00  INFO 12496 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:07:13.219+04:00  INFO 12496 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:07:13.424+04:00  INFO 12496 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:07:13.447+04:00  INFO 12496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:07:13.583+04:00  INFO 12496 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3fc66c04
+2024-04-21T12:07:13.584+04:00  INFO 12496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:07:14.445+04:00  INFO 12496 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:07:14.522+04:00  INFO 12496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:07:15.077+04:00  INFO 12496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:07:15.107+04:00  INFO 12496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:07:15.115+04:00  INFO 12496 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.906 seconds (process running for 4.547)
+2024-04-21T12:07:56.469+04:00  INFO 12496 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:07:56.471+04:00  INFO 12496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:07:56.477+04:00  INFO 12496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:08:02.044+04:00  INFO 1768 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 1768 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:08:02.047+04:00  INFO 1768 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:08:02.088+04:00  INFO 1768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:08:02.781+04:00  INFO 1768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:08:02.831+04:00  INFO 1768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:08:03.305+04:00  INFO 1768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:08:03.314+04:00  INFO 1768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:08:03.314+04:00  INFO 1768 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:08:03.354+04:00  INFO 1768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:08:03.354+04:00  INFO 1768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1265 ms
+2024-04-21T12:08:03.468+04:00  INFO 1768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:08:03.507+04:00  INFO 1768 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:08:03.536+04:00  INFO 1768 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:08:03.710+04:00  INFO 1768 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:08:03.735+04:00  INFO 1768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:08:03.859+04:00  INFO 1768 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fbeb43d
+2024-04-21T12:08:03.860+04:00  INFO 1768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:08:04.735+04:00  INFO 1768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:08:04.806+04:00  INFO 1768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:08:05.356+04:00  INFO 1768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:08:05.386+04:00  INFO 1768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:08:05.395+04:00  INFO 1768 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.692 seconds (process running for 4.199)
+2024-04-21T12:09:03.492+04:00  INFO 1768 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21T12:09:03.494+04:00  INFO 1768 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-21T12:09:03.494+04:00  INFO 1768 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-04-21T12:09:03.614+04:00  WARN 1768 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null]
+2024-04-21T12:09:22.717+04:00  WARN 1768 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: WarehouseEntity not found]
+2024-04-21T12:10:03.957+04:00  WARN 1768 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Quantity exceeds maximum capacity]
+2024-04-21T12:10:07.362+04:00  INFO 1768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:10:07.364+04:00  INFO 1768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:10:07.366+04:00  INFO 1768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:20:30.856+04:00  INFO 9528 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 9528 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:20:30.859+04:00  INFO 9528 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:20:30.899+04:00  INFO 9528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:20:31.464+04:00  INFO 9528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:20:31.524+04:00  INFO 9528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:20:31.933+04:00  INFO 9528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:20:31.942+04:00  INFO 9528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:20:31.942+04:00  INFO 9528 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:20:31.987+04:00  INFO 9528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:20:31.987+04:00  INFO 9528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1088 ms
+2024-04-21T12:20:32.109+04:00  INFO 9528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:20:32.150+04:00  INFO 9528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:20:32.180+04:00  INFO 9528 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:20:32.364+04:00  INFO 9528 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:20:32.385+04:00  INFO 9528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:20:32.516+04:00  INFO 9528 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cc8c8e0
+2024-04-21T12:20:32.517+04:00  INFO 9528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:20:33.283+04:00  INFO 9528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:20:33.363+04:00  INFO 9528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:20:33.897+04:00  INFO 9528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:20:33.926+04:00  INFO 9528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:20:33.936+04:00  INFO 9528 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.397 seconds (process running for 3.886)
+2024-04-21T12:21:10.108+04:00  INFO 9528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:21:10.112+04:00  INFO 9528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:21:10.116+04:00  INFO 9528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:21:11.972+04:00  INFO 19524 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 19524 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:21:11.975+04:00  INFO 19524 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:21:12.014+04:00  INFO 19524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:21:12.552+04:00  INFO 19524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:21:12.612+04:00  INFO 19524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:21:12.984+04:00  INFO 19524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:21:12.992+04:00  INFO 19524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:21:12.992+04:00  INFO 19524 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:21:13.027+04:00  INFO 19524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:21:13.028+04:00  INFO 19524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2024-04-21T12:21:13.139+04:00  INFO 19524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:21:13.175+04:00  INFO 19524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:21:13.199+04:00  INFO 19524 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:21:13.380+04:00  INFO 19524 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:21:13.401+04:00  INFO 19524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:21:13.526+04:00  INFO 19524 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@355aec76
+2024-04-21T12:21:13.527+04:00  INFO 19524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:21:14.403+04:00  INFO 19524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:21:14.466+04:00  INFO 19524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:21:14.993+04:00  INFO 19524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:21:15.026+04:00  INFO 19524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:21:15.036+04:00  INFO 19524 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.395 seconds (process running for 3.976)
+2024-04-21T12:21:59.633+04:00  INFO 19524 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:21:59.636+04:00  INFO 19524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:21:59.642+04:00  INFO 19524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:22:05.910+04:00  INFO 9252 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 9252 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:22:05.912+04:00  INFO 9252 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:22:05.947+04:00  INFO 9252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:22:06.558+04:00  INFO 9252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:22:06.614+04:00  INFO 9252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:22:06.998+04:00  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:22:07.005+04:00  INFO 9252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:22:07.006+04:00  INFO 9252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:22:07.040+04:00  INFO 9252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:22:07.041+04:00  INFO 9252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2024-04-21T12:22:07.138+04:00  INFO 9252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:22:07.272+04:00  INFO 9252 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@253a8a10
+2024-04-21T12:22:07.273+04:00  INFO 9252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:22:07.408+04:00  INFO 9252 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:22:07.711+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-04-21T12:22:07.740+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:22:07.784+04:00  INFO 9252 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:22:07.785+04:00  INFO 9252 --- [restartedMain] liquibase.command                        : Using deploymentId: 3687727785
+2024-04-21T12:22:07.788+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:22:07.844+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : SQL in file classpath:/db/changelog/V1__init.sql executed
+2024-04-21T12:22:07.846+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant ran successfully in 38ms
+2024-04-21T12:22:07.901+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/warehouse.csv' into table 'warehouse'
+2024-04-21T12:22:07.902+04:00  INFO 9252 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::2::Hrant ran successfully in 50ms
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : Run:                          2
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : Previously run:               0
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:22:07.907+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : Total change sets:            2
+2024-04-21T12:22:07.908+04:00  INFO 9252 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:22:07.909+04:00  INFO 9252 --- [restartedMain] liquibase.command                        : Update command completed successfully.
+2024-04-21T12:22:07.911+04:00  INFO 9252 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:22:07.912+04:00  INFO 9252 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:22:07.999+04:00  INFO 9252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:22:08.044+04:00  INFO 9252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:22:08.075+04:00  INFO 9252 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:22:08.230+04:00  INFO 9252 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:22:08.939+04:00  INFO 9252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:22:08.997+04:00  INFO 9252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:22:09.491+04:00  INFO 9252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:22:09.520+04:00  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:22:09.528+04:00  INFO 9252 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.954 seconds (process running for 4.627)
+2024-04-21T12:22:32.732+04:00  INFO 9252 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:22:32.736+04:00  INFO 9252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:22:32.740+04:00  INFO 9252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:26:30.018+04:00  INFO 12916 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 12916 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:26:30.021+04:00  INFO 12916 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:26:30.063+04:00  INFO 12916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:26:30.682+04:00  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:26:30.741+04:00  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:26:31.228+04:00  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:26:31.236+04:00  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:26:31.236+04:00  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:26:31.271+04:00  INFO 12916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:26:31.271+04:00  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
+2024-04-21T12:26:31.360+04:00  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:26:31.497+04:00  INFO 12916 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52ce32a
+2024-04-21T12:26:31.500+04:00  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:26:31.643+04:00  INFO 12916 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:26:31.959+04:00  INFO 12916 --- [restartedMain] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-04-21T12:26:31.990+04:00  INFO 12916 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:26:32.018+04:00  INFO 12916 --- [restartedMain] liquibase.changelog                      : Change failed validation!
+2024-04-21T12:26:32.019+04:00  INFO 12916 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:26:32.020+04:00  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          db/changelog/db.changelog-master.yaml::2::Hrant
+
+2024-04-21T12:26:32.020+04:00  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:26:32.073+04:00  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:26:32.076+04:00  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:26:32.084+04:00  INFO 12916 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:26:32.099+04:00 ERROR 12916 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          db/changelog/db.changelog-master.yaml::2::Hrant
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          db/changelog/db.changelog-master.yaml::2::Hrant
+
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          db/changelog/db.changelog-master.yaml::2::Hrant
+
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:353) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(DatabaseChangelogCommandStep.java:92) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+
+2024-04-21T12:27:01.812+04:00  INFO 19028 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 19028 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:27:01.814+04:00  INFO 19028 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:27:01.851+04:00  INFO 19028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:27:02.405+04:00  INFO 19028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:27:02.464+04:00  INFO 19028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:27:02.875+04:00  INFO 19028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:27:02.883+04:00  INFO 19028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:27:02.884+04:00  INFO 19028 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:27:02.922+04:00  INFO 19028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:27:02.923+04:00  INFO 19028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2024-04-21T12:27:03.016+04:00  INFO 19028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:27:03.153+04:00  INFO 19028 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5259efaf
+2024-04-21T12:27:03.154+04:00  INFO 19028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:27:03.259+04:00  INFO 19028 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:27:03.634+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:27:03.695+04:00  INFO 19028 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:27:03.696+04:00  INFO 19028 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688023696
+2024-04-21T12:27:03.699+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:27:03.763+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : SQL in file classpath:/db/changelog/V1__init.sql executed
+2024-04-21T12:27:03.765+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant ran successfully in 45ms
+2024-04-21T12:27:03.820+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/warehouse.csv' into table 'warehouse'
+2024-04-21T12:27:03.821+04:00  INFO 19028 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::2::Hrant ran successfully in 45ms
+2024-04-21T12:27:03.831+04:00  WARN 19028 --- [restartedMain] liquibase.change                         : Could not snapshot table 'public.materialtype' to get the missing column type information. It is strongly recommended that you augment your loadData operation with a full list of targeted columns and their load data types.
+2024-04-21T12:27:03.836+04:00  WARN 19028 --- [restartedMain] liquibase.change                         : Could not snapshot table 'public.materialtype' to get the missing column type information. It is strongly recommended that you augment your loadData operation with a full list of targeted columns and their load data types.
+2024-04-21T12:27:03.841+04:00 ERROR 19028 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::3::Hrant encountered an exception.
+2024-04-21T12:27:03.843+04:00  INFO 19028 --- [restartedMain] liquibase.command                        : Update command encountered an exception.
+2024-04-21T12:27:03.846+04:00  INFO 19028 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:27:03.848+04:00  INFO 19028 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:27:03.849+04:00  WARN 19028 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+2024-04-21T12:27:03.850+04:00  INFO 19028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:27:03.857+04:00  INFO 19028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:27:03.860+04:00  INFO 19028 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:27:03.872+04:00  INFO 19028 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:27:03.889+04:00 ERROR 19028 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:122) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$doRun$1(AbstractUpdateCommandStep.java:105) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.doRun(AbstractUpdateCommandStep.java:104) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:63) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:62) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.UpdateCommandStep.run(UpdateCommandStep.java:106) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:785) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.executeAcceptedChange(UpdateVisitor.java:118) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:68) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$0(ChangeLogIterator.java:110) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:100) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:254) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:74) ~[liquibase-core-4.24.0.jar:na]
+	... 49 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ERROR: relation "public.materialtype" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public.materialtype (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:468) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:177) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1291) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1273) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:744) ~[liquibase-core-4.24.0.jar:na]
+	... 65 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "public.materialtype" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:462) ~[liquibase-core-4.24.0.jar:na]
+	... 70 common frames omitted
+
+2024-04-21T12:28:57.680+04:00  INFO 21120 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 21120 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:28:57.682+04:00  INFO 21120 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:28:57.718+04:00  INFO 21120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:28:58.246+04:00  INFO 21120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:28:58.301+04:00  INFO 21120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:28:58.689+04:00  INFO 21120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:28:58.697+04:00  INFO 21120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:28:58.697+04:00  INFO 21120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:28:58.733+04:00  INFO 21120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:28:58.733+04:00  INFO 21120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
+2024-04-21T12:28:58.820+04:00  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:28:59.056+04:00  INFO 21120 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e84c594
+2024-04-21T12:28:59.057+04:00  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:28:59.168+04:00  INFO 21120 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:28:59.464+04:00  INFO 21120 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:28:59.513+04:00  INFO 21120 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:28:59.515+04:00  INFO 21120 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688139514
+2024-04-21T12:28:59.516+04:00  INFO 21120 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:28:59.543+04:00  WARN 21120 --- [restartedMain] liquibase.change                         : Could not snapshot table 'public."materialType"' to get the missing column type information. It is strongly recommended that you augment your loadData operation with a full list of targeted columns and their load data types.
+2024-04-21T12:28:59.548+04:00  WARN 21120 --- [restartedMain] liquibase.change                         : Could not snapshot table 'public."materialType"' to get the missing column type information. It is strongly recommended that you augment your loadData operation with a full list of targeted columns and their load data types.
+2024-04-21T12:28:59.551+04:00 ERROR 21120 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::3::Hrant encountered an exception.
+2024-04-21T12:28:59.553+04:00  INFO 21120 --- [restartedMain] liquibase.command                        : Update command encountered an exception.
+2024-04-21T12:28:59.556+04:00  INFO 21120 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:28:59.557+04:00  INFO 21120 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:28:59.558+04:00  WARN 21120 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+2024-04-21T12:28:59.558+04:00  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:28:59.580+04:00  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:28:59.583+04:00  INFO 21120 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:28:59.592+04:00  INFO 21120 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:28:59.604+04:00 ERROR 21120 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:122) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$doRun$1(AbstractUpdateCommandStep.java:105) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.doRun(AbstractUpdateCommandStep.java:104) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:63) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:62) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.UpdateCommandStep.run(UpdateCommandStep.java:106) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::3::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:785) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.executeAcceptedChange(UpdateVisitor.java:118) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:68) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$0(ChangeLogIterator.java:110) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:100) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:254) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:74) ~[liquibase-core-4.24.0.jar:na]
+	... 49 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ERROR: relation "public.materialType" does not exist
+  Position: 13 [Failed SQL: (0) INSERT INTO public."materialType" (id, description, icon, max_capacity, name) VALUES ('1', 'Strong metal', 'iron_icon', '200', 'iron');]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:468) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:177) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1291) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1273) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:744) ~[liquibase-core-4.24.0.jar:na]
+	... 65 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "public.materialType" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:462) ~[liquibase-core-4.24.0.jar:na]
+	... 70 common frames omitted
+
+2024-04-21T12:29:09.608+04:00  INFO 21148 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 21148 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:29:09.610+04:00  INFO 21148 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:29:09.647+04:00  INFO 21148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:29:10.165+04:00  INFO 21148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:29:10.226+04:00  INFO 21148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:29:10.631+04:00  INFO 21148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:29:10.640+04:00  INFO 21148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:29:10.641+04:00  INFO 21148 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:29:10.680+04:00  INFO 21148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:29:10.680+04:00  INFO 21148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2024-04-21T12:29:10.770+04:00  INFO 21148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:29:10.908+04:00  INFO 21148 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@358b796c
+2024-04-21T12:29:10.909+04:00  INFO 21148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:29:11.015+04:00  INFO 21148 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:29:11.303+04:00  INFO 21148 --- [restartedMain] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-04-21T12:29:11.334+04:00  INFO 21148 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:29:11.378+04:00  INFO 21148 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:29:11.379+04:00  INFO 21148 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688151379
+2024-04-21T12:29:11.381+04:00  INFO 21148 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:29:11.411+04:00 ERROR 21148 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant encountered an exception.
+2024-04-21T12:29:11.413+04:00  INFO 21148 --- [restartedMain] liquibase.command                        : Update command encountered an exception.
+2024-04-21T12:29:11.416+04:00  INFO 21148 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:29:11.417+04:00  INFO 21148 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:29:11.417+04:00  WARN 21148 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+2024-04-21T12:29:11.418+04:00  INFO 21148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:29:11.448+04:00  INFO 21148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:29:11.451+04:00  INFO 21148 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:29:11.462+04:00  INFO 21148 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:29:11.477+04:00 ERROR 21148 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:122) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$doRun$1(AbstractUpdateCommandStep.java:105) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.doRun(AbstractUpdateCommandStep.java:104) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:63) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:62) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.UpdateCommandStep.run(UpdateCommandStep.java:106) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:785) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.executeAcceptedChange(UpdateVisitor.java:118) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:68) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$0(ChangeLogIterator.java:110) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:100) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:254) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:74) ~[liquibase-core-4.24.0.jar:na]
+	... 49 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:468) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:177) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1291) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1273) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:744) ~[liquibase-core-4.24.0.jar:na]
+	... 65 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "material_type" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:462) ~[liquibase-core-4.24.0.jar:na]
+	... 70 common frames omitted
+
+2024-04-21T12:29:19.976+04:00  INFO 16764 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 16764 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:29:19.978+04:00  INFO 16764 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:29:20.016+04:00  INFO 16764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:29:20.530+04:00  INFO 16764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:29:20.590+04:00  INFO 16764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:29:20.997+04:00  INFO 16764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:29:21.007+04:00  INFO 16764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:29:21.007+04:00  INFO 16764 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:29:21.046+04:00  INFO 16764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:29:21.046+04:00  INFO 16764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2024-04-21T12:29:21.136+04:00  INFO 16764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:29:21.271+04:00  INFO 16764 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47962b57
+2024-04-21T12:29:21.272+04:00  INFO 16764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:29:21.376+04:00  INFO 16764 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:29:21.687+04:00  INFO 16764 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:29:21.734+04:00  INFO 16764 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:29:21.736+04:00  INFO 16764 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688161735
+2024-04-21T12:29:21.737+04:00  INFO 16764 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:29:21.776+04:00 ERROR 16764 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant encountered an exception.
+2024-04-21T12:29:21.778+04:00  INFO 16764 --- [restartedMain] liquibase.command                        : Update command encountered an exception.
+2024-04-21T12:29:21.781+04:00  INFO 16764 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:29:21.782+04:00  INFO 16764 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:29:21.783+04:00  WARN 16764 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+2024-04-21T12:29:21.784+04:00  INFO 16764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:29:21.795+04:00  INFO 16764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:29:21.797+04:00  INFO 16764 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:29:21.806+04:00  INFO 16764 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:29:21.819+04:00 ERROR 16764 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:122) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$doRun$1(AbstractUpdateCommandStep.java:105) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.doRun(AbstractUpdateCommandStep.java:104) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:63) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:62) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.UpdateCommandStep.run(UpdateCommandStep.java:106) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:785) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.executeAcceptedChange(UpdateVisitor.java:118) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:68) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$0(ChangeLogIterator.java:110) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:100) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:254) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:74) ~[liquibase-core-4.24.0.jar:na]
+	... 49 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:468) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:177) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1291) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1273) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:744) ~[liquibase-core-4.24.0.jar:na]
+	... 65 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "material_type" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:462) ~[liquibase-core-4.24.0.jar:na]
+	... 70 common frames omitted
+
+2024-04-21T12:30:37.904+04:00  INFO 15632 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 15632 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:30:37.906+04:00  INFO 15632 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:30:37.946+04:00  INFO 15632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:30:38.620+04:00  INFO 15632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:30:38.677+04:00  INFO 15632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:30:39.074+04:00  INFO 15632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:30:39.082+04:00  INFO 15632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:30:39.083+04:00  INFO 15632 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:30:39.120+04:00  INFO 15632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:30:39.120+04:00  INFO 15632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1173 ms
+2024-04-21T12:30:39.212+04:00  INFO 15632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:30:39.350+04:00  INFO 15632 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ad05666
+2024-04-21T12:30:39.351+04:00  INFO 15632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:30:39.466+04:00  INFO 15632 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:30:39.781+04:00  INFO 15632 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:30:39.824+04:00  INFO 15632 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:30:39.825+04:00  INFO 15632 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688239825
+2024-04-21T12:30:39.827+04:00  INFO 15632 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:30:39.854+04:00 ERROR 15632 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant encountered an exception.
+2024-04-21T12:30:39.856+04:00  INFO 15632 --- [restartedMain] liquibase.command                        : Update command encountered an exception.
+2024-04-21T12:30:39.858+04:00  INFO 15632 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:30:39.859+04:00  INFO 15632 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:30:39.860+04:00  WARN 15632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+2024-04-21T12:30:39.861+04:00  INFO 15632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:30:39.930+04:00  INFO 15632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:30:39.932+04:00  INFO 15632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:30:39.941+04:00  INFO 15632 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:30:39.955+04:00 ERROR 15632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.command.CommandScope.execute(CommandScope.java:237) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:222) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.runInScope(Liquibase.java:1371) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:211) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Liquibase.update(Liquibase.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:331) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:286) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:122) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$doRun$1(AbstractUpdateCommandStep.java:105) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.doRun(AbstractUpdateCommandStep.java:104) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:63) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:62) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.core.UpdateCommandStep.run(UpdateCommandStep.java:106) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.command.CommandScope.execute(CommandScope.java:214) ~[liquibase-core-4.24.0.jar:na]
+	... 35 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/db.changelog-master.yaml::1::Hrant:
+     Reason: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:785) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.executeAcceptedChange(UpdateVisitor.java:118) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:68) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$0(ChangeLogIterator.java:110) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:100) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.lambda$child$0(Scope.java:184) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:193) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:183) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:162) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:250) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.Scope.child(Scope.java:254) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:74) ~[liquibase-core-4.24.0.jar:na]
+	... 49 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ERROR: relation "material_type" already exists [Failed SQL: (0) create table material_type
+(
+    id           serial
+        primary key,
+    created_at   timestamp(6),
+    description  varchar(255) not null,
+    icon         varchar(255) not null,
+    max_capacity integer      not null,
+    name         varchar(255) not null
+)]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:468) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:177) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1291) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1273) ~[liquibase-core-4.24.0.jar:na]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:744) ~[liquibase-core-4.24.0.jar:na]
+	... 65 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "material_type" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:462) ~[liquibase-core-4.24.0.jar:na]
+	... 70 common frames omitted
+
+2024-04-21T12:31:17.474+04:00  INFO 972 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 972 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:31:17.476+04:00  INFO 972 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:31:17.513+04:00  INFO 972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:31:18.027+04:00  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:31:18.092+04:00  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:31:18.504+04:00  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:31:18.512+04:00  INFO 972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:31:18.512+04:00  INFO 972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:31:18.550+04:00  INFO 972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:31:18.551+04:00  INFO 972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2024-04-21T12:31:18.640+04:00  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:31:18.781+04:00  INFO 972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e84c594
+2024-04-21T12:31:18.783+04:00  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:31:18.890+04:00  INFO 972 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:31:19.189+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:19.243+04:00  INFO 972 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:31:19.244+04:00  INFO 972 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688279244
+2024-04-21T12:31:19.248+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:19.286+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : SQL in file classpath:/db/changelog/V1__init.sql executed
+2024-04-21T12:31:19.287+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant ran successfully in 30ms
+2024-04-21T12:31:19.322+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/warehouse.csv' into table 'warehouse'
+2024-04-21T12:31:19.323+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::2::Hrant ran successfully in 30ms
+2024-04-21T12:31:19.337+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/material_type.csv' into table 'material_type'
+2024-04-21T12:31:19.339+04:00  INFO 972 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::3::Hrant ran successfully in 11ms
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : Run:                          3
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : Previously run:               0
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:31:19.344+04:00  INFO 972 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:31:19.345+04:00  INFO 972 --- [restartedMain] liquibase.command                        : Update command completed successfully.
+2024-04-21T12:31:19.348+04:00  INFO 972 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:31:19.349+04:00  INFO 972 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:31:19.408+04:00  INFO 972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:31:19.459+04:00  INFO 972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:31:19.494+04:00  INFO 972 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:31:19.653+04:00  INFO 972 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:31:20.357+04:00  INFO 972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:31:20.406+04:00  INFO 972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:31:20.907+04:00  INFO 972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:31:20.937+04:00  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:31:20.945+04:00  INFO 972 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.798 seconds (process running for 4.289)
+2024-04-21T12:31:38.952+04:00  INFO 972 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:31:38.956+04:00  INFO 972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:31:38.960+04:00  INFO 972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:31:40.868+04:00  INFO 21260 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 21260 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:31:40.870+04:00  INFO 21260 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:31:40.907+04:00  INFO 21260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:31:41.433+04:00  INFO 21260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:31:41.489+04:00  INFO 21260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:31:41.900+04:00  INFO 21260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:31:41.908+04:00  INFO 21260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:31:41.908+04:00  INFO 21260 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:31:41.948+04:00  INFO 21260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:31:41.949+04:00  INFO 21260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2024-04-21T12:31:42.051+04:00  INFO 21260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:31:42.210+04:00  INFO 21260 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2506f54b
+2024-04-21T12:31:42.212+04:00  INFO 21260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:31:42.371+04:00  INFO 21260 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:31:42.690+04:00  INFO 21260 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:42.720+04:00  INFO 21260 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:42.726+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : Run:                          0
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : Previously run:               3
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:31:42.727+04:00  INFO 21260 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:31:42.750+04:00  INFO 21260 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:31:42.752+04:00  INFO 21260 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:31:42.817+04:00  INFO 21260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:31:42.859+04:00  INFO 21260 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:31:42.884+04:00  INFO 21260 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:31:43.078+04:00  INFO 21260 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:31:43.781+04:00  INFO 21260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:31:43.841+04:00  INFO 21260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:31:44.340+04:00  INFO 21260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:31:44.374+04:00  INFO 21260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:31:44.383+04:00  INFO 21260 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.853 seconds (process running for 4.393)
+2024-04-21T12:31:50.150+04:00  INFO 21260 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:31:50.154+04:00  INFO 21260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:31:50.156+04:00  INFO 21260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:31:52.474+04:00  INFO 13848 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 13848 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:31:52.476+04:00  INFO 13848 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:31:52.513+04:00  INFO 13848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:31:53.027+04:00  INFO 13848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:31:53.086+04:00  INFO 13848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:31:53.472+04:00  INFO 13848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:31:53.480+04:00  INFO 13848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:31:53.481+04:00  INFO 13848 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:31:53.520+04:00  INFO 13848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:31:53.520+04:00  INFO 13848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2024-04-21T12:31:53.618+04:00  INFO 13848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:31:53.852+04:00  INFO 13848 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ad05666
+2024-04-21T12:31:53.853+04:00  INFO 13848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:31:53.969+04:00  INFO 13848 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:31:54.294+04:00  INFO 13848 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:54.323+04:00  INFO 13848 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : Run:                          0
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : Previously run:               3
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:31:54.329+04:00  INFO 13848 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:31:54.355+04:00  INFO 13848 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:31:54.356+04:00  INFO 13848 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:31:54.424+04:00  INFO 13848 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:31:54.465+04:00  INFO 13848 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:31:54.491+04:00  INFO 13848 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:31:54.667+04:00  INFO 13848 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:31:55.428+04:00  INFO 13848 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:31:55.498+04:00  INFO 13848 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:31:55.992+04:00  INFO 13848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:31:56.023+04:00  INFO 13848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:31:56.032+04:00  INFO 13848 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.901 seconds (process running for 4.444)
+2024-04-21T12:32:07.102+04:00  INFO 13848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:32:07.105+04:00  INFO 13848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:32:07.107+04:00  INFO 13848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:32:27.611+04:00  INFO 19716 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 19716 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:32:27.613+04:00  INFO 19716 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:32:27.652+04:00  INFO 19716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:32:28.177+04:00  INFO 19716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:32:28.225+04:00  INFO 19716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:32:28.622+04:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:32:28.630+04:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:32:28.630+04:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:32:28.666+04:00  INFO 19716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:32:28.666+04:00  INFO 19716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
+2024-04-21T12:32:28.760+04:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:32:28.893+04:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e84c594
+2024-04-21T12:32:28.895+04:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:32:29.002+04:00  INFO 19716 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:32:29.301+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-04-21T12:32:29.333+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:32:29.374+04:00  INFO 19716 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:32:29.375+04:00  INFO 19716 --- [restartedMain] liquibase.command                        : Using deploymentId: 3688349375
+2024-04-21T12:32:29.377+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:32:29.421+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : SQL in file classpath:/db/changelog/V1__init.sql executed
+2024-04-21T12:32:29.423+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant ran successfully in 31ms
+2024-04-21T12:32:29.475+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/warehouse.csv' into table 'warehouse'
+2024-04-21T12:32:29.476+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::2::Hrant ran successfully in 46ms
+2024-04-21T12:32:29.491+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/material_type.csv' into table 'material_type'
+2024-04-21T12:32:29.491+04:00  INFO 19716 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::3::Hrant ran successfully in 12ms
+2024-04-21T12:32:29.495+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : Run:                          3
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : Previously run:               0
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:32:29.496+04:00  INFO 19716 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:32:29.497+04:00  INFO 19716 --- [restartedMain] liquibase.command                        : Update command completed successfully.
+2024-04-21T12:32:29.500+04:00  INFO 19716 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:32:29.501+04:00  INFO 19716 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:32:29.582+04:00  INFO 19716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:32:29.629+04:00  INFO 19716 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:32:29.655+04:00  INFO 19716 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:32:29.810+04:00  INFO 19716 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:32:30.583+04:00  INFO 19716 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:32:30.637+04:00  INFO 19716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:32:31.146+04:00  INFO 19716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:32:31.183+04:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:32:31.195+04:00  INFO 19716 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.9 seconds (process running for 4.427)
+2024-04-21T12:33:08.610+04:00  INFO 19716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:33:08.614+04:00  INFO 19716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:33:08.615+04:00  INFO 19716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:34:31.299+04:00  INFO 13168 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 13168 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:34:31.301+04:00  INFO 13168 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:34:31.347+04:00  INFO 13168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:34:31.874+04:00  INFO 13168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:34:31.927+04:00  INFO 13168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:34:32.318+04:00  INFO 13168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:34:32.326+04:00  INFO 13168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:34:32.326+04:00  INFO 13168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:34:32.366+04:00  INFO 13168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:34:32.367+04:00  INFO 13168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2024-04-21T12:34:32.471+04:00  INFO 13168 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:34:32.604+04:00  INFO 13168 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@358b796c
+2024-04-21T12:34:32.605+04:00  INFO 13168 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:34:32.714+04:00  INFO 13168 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:34:33.013+04:00  INFO 13168 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:34:33.044+04:00  INFO 13168 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:34:33.049+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:34:33.049+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : Run:                          0
+2024-04-21T12:34:33.049+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : Previously run:               3
+2024-04-21T12:34:33.049+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:34:33.050+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:34:33.050+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:34:33.050+04:00  INFO 13168 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:34:33.071+04:00  INFO 13168 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:34:33.072+04:00  INFO 13168 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:34:33.131+04:00  INFO 13168 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:34:33.174+04:00  INFO 13168 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:34:33.202+04:00  INFO 13168 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:34:33.391+04:00  INFO 13168 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:34:34.107+04:00  INFO 13168 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:34:34.172+04:00  INFO 13168 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:34:34.669+04:00  INFO 13168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:34:34.699+04:00  INFO 13168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:34:34.707+04:00  INFO 13168 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 3.732 seconds (process running for 4.228)
+2024-04-21T12:34:52.231+04:00  INFO 13168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:34:52.234+04:00  INFO 13168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:34:52.236+04:00  INFO 13168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:40:57.363+04:00  INFO 15068 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 15068 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:40:57.365+04:00  INFO 15068 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:40:57.410+04:00  INFO 15068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:40:58.346+04:00  INFO 15068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:40:58.402+04:00  INFO 15068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:40:58.886+04:00  INFO 15068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:40:58.897+04:00  INFO 15068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:40:58.897+04:00  INFO 15068 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:40:58.946+04:00  INFO 15068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:40:58.946+04:00  INFO 15068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1535 ms
+2024-04-21T12:40:59.053+04:00  INFO 15068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:41:00.101+04:00 ERROR 15068 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:283) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 37 common frames omitted
+
+2024-04-21T12:41:00.108+04:00  WARN 15068 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-04-21T12:41:00.111+04:00  INFO 15068 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-21T12:41:00.121+04:00  INFO 15068 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-21T12:41:00.135+04:00 ERROR 15068 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at am.smartcode.sandshipgames.SandshipGamesApplication.main(SandshipGamesApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:288) ~[liquibase-core-4.24.0.jar:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 23 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:283) ~[liquibase-core-4.24.0.jar:na]
+	... 25 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 37 common frames omitted
+
+2024-04-21T12:44:59.400+04:00  INFO 4208 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 4208 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:44:59.402+04:00  INFO 4208 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:44:59.442+04:00  INFO 4208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:45:00.139+04:00  INFO 4208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:45:00.194+04:00  INFO 4208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:45:00.659+04:00  INFO 4208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:45:00.670+04:00  INFO 4208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:45:00.670+04:00  INFO 4208 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:45:00.720+04:00  INFO 4208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:45:00.720+04:00  INFO 4208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1277 ms
+2024-04-21T12:45:00.830+04:00  INFO 4208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:45:01.037+04:00  INFO 4208 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f27b80a
+2024-04-21T12:45:01.038+04:00  INFO 4208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:45:01.215+04:00  INFO 4208 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:45:01.577+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-04-21T12:45:01.680+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:45:01.772+04:00  INFO 4208 --- [restartedMain] liquibase.lockservice                    : Successfully acquired change log lock
+2024-04-21T12:45:01.773+04:00  INFO 4208 --- [restartedMain] liquibase.command                        : Using deploymentId: 3689101773
+2024-04-21T12:45:01.776+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:45:01.869+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : SQL in file classpath:/db/changelog/V1__init.sql executed
+2024-04-21T12:45:01.872+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::1::Hrant ran successfully in 69ms
+2024-04-21T12:45:01.959+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/warehouse.csv' into table 'warehouse'
+2024-04-21T12:45:01.962+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::2::Hrant ran successfully in 77ms
+2024-04-21T12:45:01.985+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : Data loaded from 'classpath:/db/changelog/material_type.csv' into table 'material_type'
+2024-04-21T12:45:01.988+04:00  INFO 4208 --- [restartedMain] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-master.yaml::3::Hrant ran successfully in 20ms
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : Run:                          3
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : Previously run:               0
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:45:01.996+04:00  INFO 4208 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:45:01.998+04:00  INFO 4208 --- [restartedMain] liquibase.command                        : Update command completed successfully.
+2024-04-21T12:45:02.003+04:00  INFO 4208 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:45:02.005+04:00  INFO 4208 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:45:02.100+04:00  INFO 4208 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:45:02.162+04:00  INFO 4208 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:45:02.196+04:00  INFO 4208 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:45:02.406+04:00  INFO 4208 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:45:03.287+04:00  INFO 4208 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:45:03.364+04:00  INFO 4208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:45:04.077+04:00  INFO 4208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:45:04.116+04:00  INFO 4208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:45:04.126+04:00  INFO 4208 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 5.127 seconds (process running for 5.831)
+2024-04-21T12:45:11.400+04:00  INFO 4208 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:45:11.402+04:00  INFO 4208 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:45:11.405+04:00  INFO 4208 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:47:23.539+04:00  INFO 2472 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 2472 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:47:23.541+04:00  INFO 2472 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:47:23.583+04:00  INFO 2472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:47:24.289+04:00  INFO 2472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:47:24.345+04:00  INFO 2472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:47:24.831+04:00  INFO 2472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:47:24.843+04:00  INFO 2472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:47:24.843+04:00  INFO 2472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:47:24.890+04:00  INFO 2472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:47:24.891+04:00  INFO 2472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2024-04-21T12:47:25.011+04:00  INFO 2472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:47:25.215+04:00  INFO 2472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c844f8
+2024-04-21T12:47:25.216+04:00  INFO 2472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:47:25.359+04:00  INFO 2472 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:47:25.725+04:00  INFO 2472 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:47:25.766+04:00  INFO 2472 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : Run:                          0
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : Previously run:               3
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:47:25.773+04:00  INFO 2472 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:47:25.801+04:00  INFO 2472 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:47:25.804+04:00  INFO 2472 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:47:25.874+04:00  INFO 2472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:47:25.933+04:00  INFO 2472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:47:25.976+04:00  INFO 2472 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:47:26.214+04:00  INFO 2472 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:47:27.130+04:00  INFO 2472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:47:27.211+04:00  INFO 2472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:47:27.948+04:00  INFO 2472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:47:27.990+04:00  INFO 2472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:47:28.000+04:00  INFO 2472 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 4.873 seconds (process running for 5.622)
+2024-04-21T12:47:31.783+04:00  INFO 2472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-21T12:47:31.783+04:00  INFO 2472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-21T12:47:31.784+04:00  INFO 2472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-21T12:47:32.045+04:00  WARN 2472 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Quantity exceeds maximum capacity]
+2024-04-21T12:47:40.908+04:00  INFO 2472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:47:40.911+04:00  INFO 2472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:47:40.915+04:00  INFO 2472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-21T12:47:50.551+04:00  INFO 5636 --- [restartedMain] a.s.s.SandshipGamesApplication           : Starting SandshipGamesApplication using Java 17.0.9 with PID 5636 (C:\Users\Asus\OneDrive\Desktop\SandshipGames\target\classes started by Asus in C:\Users\Asus\OneDrive\Desktop\SandshipGames)
+2024-04-21T12:47:50.553+04:00  INFO 5636 --- [restartedMain] a.s.s.SandshipGamesApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-21T12:47:50.600+04:00  INFO 5636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-21T12:47:51.244+04:00  INFO 5636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-21T12:47:51.296+04:00  INFO 5636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-04-21T12:47:51.703+04:00  INFO 5636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-21T12:47:51.711+04:00  INFO 5636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-21T12:47:51.712+04:00  INFO 5636 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-21T12:47:51.756+04:00  INFO 5636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-21T12:47:51.757+04:00  INFO 5636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1156 ms
+2024-04-21T12:47:51.856+04:00  INFO 5636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-21T12:47:52.000+04:00  INFO 5636 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60a48966
+2024-04-21T12:47:52.001+04:00  INFO 5636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-21T12:47:52.122+04:00  INFO 5636 --- [restartedMain] liquibase.database                       : Set default schema name to public
+2024-04-21T12:47:52.484+04:00  INFO 5636 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:47:52.522+04:00  INFO 5636 --- [restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : UPDATE SUMMARY
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : Run:                          0
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : Previously run:               3
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : Filtered out:                 0
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : -------------------------------
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : Total change sets:            3
+2024-04-21T12:47:52.528+04:00  INFO 5636 --- [restartedMain] liquibase.util                           : Update summary generated
+2024-04-21T12:47:52.553+04:00  INFO 5636 --- [restartedMain] liquibase.lockservice                    : Successfully released change log lock
+2024-04-21T12:47:52.555+04:00  INFO 5636 --- [restartedMain] liquibase.command                        : Command execution complete
+2024-04-21T12:47:52.613+04:00  INFO 5636 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-21T12:47:52.654+04:00  INFO 5636 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-21T12:47:52.681+04:00  INFO 5636 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-21T12:47:52.872+04:00  INFO 5636 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-21T12:47:53.604+04:00  INFO 5636 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-21T12:47:53.679+04:00  INFO 5636 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:47:54.326+04:00  INFO 5636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-21T12:47:54.365+04:00  INFO 5636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-21T12:47:54.375+04:00  INFO 5636 --- [restartedMain] a.s.s.SandshipGamesApplication           : Started SandshipGamesApplication in 4.172 seconds (process running for 4.711)
+2024-04-21T12:48:01.015+04:00  INFO 5636 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-21T12:48:01.018+04:00  INFO 5636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-21T12:48:01.023+04:00  INFO 5636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
